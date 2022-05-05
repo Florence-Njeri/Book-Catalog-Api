@@ -41,12 +41,13 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   # Rspec
   gem 'rspec-rails'
-end
-
-group :development do
   gem 'factory_bot_rails'
   gem 'shoulda-matchers'
   gem 'faker'
   gem 'database_cleaner'
+end
+
+group :test do
+  
 end
 
