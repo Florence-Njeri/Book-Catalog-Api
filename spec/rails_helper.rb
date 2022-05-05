@@ -53,7 +53,7 @@ RSpec.configure do |config|
   # config.include ControllerSpecHelper
 
   #add RequestSpecHelper to be autoloaded by default
-  # config.include RequestSpecHelper, type: :request
+  config.include RequestSpecHelper, type: :request
 
   # start by truncating all the tables but then use the faster transaction strategy the rest of the time.
   config.before(:suite) do
